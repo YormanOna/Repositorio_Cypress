@@ -1,0 +1,63 @@
+# Backend - Node.js
+
+# Node.js modules
+node_modules/
+
+# Archivos de log
+*.log
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# npm package lock
+package-lock.json
+
+# Archivos de compilación de TypeScript (si aplicable)
+dist/
+build/
+
+# Archivos de cobertura de tests (si usas algún framework de testing)
+coverage/
+
+# Backend - Otros
+
+# Ignorar directorios específicos
+/backup/
+
+# Frontend - React
+
+# Node.js modules para frontend
+frontend/node_modules/
+
+# Archivos generados por React
+frontend/build/
+
+# Archivos de entorno
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Archivos de cobertura de tests en frontend
+frontend/coverage/
+
+# Archivos de compilación (si usas TypeScript o compiladores como Babel)
+frontend/dist/
+
+# Otros archivos generados por el entorno
+frontend/.pnp/
+
+# Si usas Yarn en lugar de npm (opcional)
+frontend/yarn.lock
+
+# Archivos de cache de dependencias
+frontend/.cache/
+
+# Otros directorios comunes
+frontend/.idea/
+frontend/.vscode/
