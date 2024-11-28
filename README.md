@@ -46,9 +46,12 @@ npm install
 ```bash
 npm run dev
 ```
-Esto debería abrir la aplicación en tu navegador en http://localhost:5173
+Esto debería abrir la aplicación en http://localhost:5173
 
-## Ejecutar Pruebas con Cypress
+**Ejecutar el programa** \
+Nota: Asegúrate de que tanto el frontend como el backend estén corriendo.
+
+## Descargar Cypress
 1) Navega al directorio del frontend (o backend) donde quieres instalar Cypress, en este caso preferible en el frontend
 2) Instala Cypress usando npm:
 ```bash
@@ -80,6 +83,6 @@ npm run cypress:open
 5) Escoger la opcion E2E, esperar y luego darle a continuar 
 ![Texto alternativo](./img/Escoger_E2E.png)
 6) Seleccionar el navegador de su gusto y esperar a que se abra la pagina de cypress en el navegador escogido
+![Texto alternativo](./img/Pagina_Cypress.png)
 7) Listo esta listo para ser usado
 
-Nota: Asegúrate de que tanto el frontend como el backend estén corriendo.
